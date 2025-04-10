@@ -1,5 +1,25 @@
-# Vue 3 + Vite
+# Запуск проекта
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+1. Клонирование папки из репозитория
+```
+$ git clone https://github.com/AlekseidDEV/currency-converter.git
+```
+2. Перейти в папку с проектом
+~~~~
+```
+$ cd currency-converter
+```
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+3. Установка зависимостей
+
+```
+$ npm install
+```
+
+4. Запуск проекта
+
+```
+$ npm run dev
+```
+
+

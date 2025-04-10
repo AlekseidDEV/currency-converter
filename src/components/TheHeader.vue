@@ -13,10 +13,10 @@ const changeTypeCurrency = () => store.currentTypeCurrency = typeCurrency.value
 <template>
     <div class="the-header__wrapper">
         <div class="the-header__links">
-          <router-link to="/">
+          <router-link :to="{name: 'main-page'}">
             Главная
           </router-link>
-          <router-link to="/convert">
+          <router-link :to="{name: 'convert-page'}">
             Конвертация
           </router-link>
         </div>
@@ -30,7 +30,7 @@ const changeTypeCurrency = () => store.currentTypeCurrency = typeCurrency.value
     </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
   .the-header {
     &__wrapper {
       padding: 10px 30px;
