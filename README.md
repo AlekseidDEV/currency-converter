@@ -5,7 +5,7 @@
 $ git clone https://github.com/AlekseidDEV/currency-converter.git
 ```
 2. Перейти в папку с проектом
-~~~~
+
 ```
 $ cd currency-converter
 ```
